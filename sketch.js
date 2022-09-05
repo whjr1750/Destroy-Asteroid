@@ -41,7 +41,7 @@ function draw() {
   push();
   fill("brown");
   rectMode(CENTER);
-  
+  // rect(ground.position.x, ground.position.y, width * 2, 1); commented this code as only image was displaying
   pop();
   for (var i = 0; i < bombs.length; i++) {
     showNuclearBombs(bombs[i], i);
